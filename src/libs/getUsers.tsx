@@ -1,6 +1,6 @@
 export default async function getUsers(token:string) {
     
-    const response = await fetch("http://localhost:5000/api/v1/users",{
+    const response = await fetch("https://coworking-be.vercel.app/api/v1/users",{
         method:"GET",
         headers: {
             authorization:`Bearer ${token}`,

@@ -37,6 +37,7 @@ const RegisterForm: React.FC = () => {
       
       // Handle response from backend (if needed)
       console.log('Registration successful:', response);
+      alert('Success');
 
       // Reset form after successful registration
       setFormData(initialFormData);
