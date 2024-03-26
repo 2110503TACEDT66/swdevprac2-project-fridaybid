@@ -1,7 +1,7 @@
 import DataReserve from "@/components/DateReserve";
 import TextField from '@mui/material/TextField';
 import { getServerSession } from "next-auth"
-import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { authOptions } from "@/libs/auth";
 import getUserProfile from "@/libs/getUserProfile"
 import React from 'react';
 import Link from 'next/link';

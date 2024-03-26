@@ -8,7 +8,7 @@ import { useSession } from 'next-auth/react';
 import getUsers from '@/libs/getUsers';
 import { getServerSession } from 'next-auth';
 import getUserProfile from '@/libs/getUserProfile';
-import { authOptions } from '@/app/api/auth/[...nextauth]/route';
+import { authOptions } from "@/libs/auth";
 
 export default function Banner() {
     const covers = ['/img/cover.jpg', '/img/cover2.jpg', '/img/cover3.jpg']

@@ -1,5 +1,5 @@
 import { getServerSession } from "next-auth"
-import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { authOptions } from "@/libs/auth";
 import deleteReservation from "@/libs/deleteReservation"
 import Link from "next/link"
 

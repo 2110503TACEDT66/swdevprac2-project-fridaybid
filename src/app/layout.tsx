@@ -4,8 +4,8 @@ import "./globals.css";
 import TopMenu from "@/components/TopMenu";
 import NextAuthProvider from "@/providers/NextAuthProvider";
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "./api/auth/[...nextauth]/route";
 import ReduxProvider from "@/redux/ReduxProvider";
+import { authOptions } from "@/libs/auth";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -1,6 +1,6 @@
 import ReservationCart from "@/components/ReservationCart"
 import getReservations from "@/libs/getReservations"
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/libs/auth";
 import { getServerSession } from "next-auth";
 
 export default async function CartPage(){

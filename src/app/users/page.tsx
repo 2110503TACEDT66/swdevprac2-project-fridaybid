@@ -1,6 +1,6 @@
 import Users from "@/components/User";
 import getUsers from "@/libs/getUsers";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/libs/auth";
 import { getServerSession } from "next-auth";
 
 export default async function UserPage(){
