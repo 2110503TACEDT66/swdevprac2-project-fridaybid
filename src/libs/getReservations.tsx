@@ -1,6 +1,6 @@
 export default async function getReservations(token:string) {
     
-    const response = await fetch(`${process.env.BACKEND_URL}/api/v1/reservations`,{
+    const response = await fetch(`https://coworking-be.vercel.app/api/v1/reservations`,{
         method:"GET",
         headers: {
             authorization:`Bearer ${token}`,
