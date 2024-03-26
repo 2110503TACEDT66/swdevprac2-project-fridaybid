@@ -1,5 +1,5 @@
 export default async function updateReservation(token: string, reservationItem: any){
-    const response = await fetch(`https://coworking-be.vercel.app/api/v1/reservations/${reservationItem.reserveId}`, {
+    const response = await fetch(`${process.env.BACKEND_URL}/api/v1/reservations/${reservationItem.reserveId}`, {
         method: 'PUT',
         headers: {
             "authorization": `Bearer ${token}`,
