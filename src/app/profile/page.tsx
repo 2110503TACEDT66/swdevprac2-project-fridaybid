@@ -45,10 +45,6 @@ export default async function Profile({ params }: { params: { cid: string } }) {
 
             </table>
 
-            
-            <Link href="/updateuserprofile">
-                <button className="bg-blue-950 text-white font-bold py-2 px-4 rounded">Update Profile</button>
-            </Link>
 
             <div>
                 <Link href="/users">
